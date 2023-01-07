@@ -1,0 +1,263 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-image: url(../images/banner/banner3.png);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-size: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+}
+
+.banner{
+    text-align: right;
+    margin: 0px 230px;
+    color: white;
+    padding-left: 845px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 280px;
+    /* width: 525px; */
+    margin-right: 0px;
+}
+
+.banner-description{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-primary{
+    /* position: absolute; */
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    margin-top: 32px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: none;
+    
+}
+
+.banner2{
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 420px;
+    margin-right: 110px;
+    text-align: left;
+    /* list-style: none; */
+}
+
+.banner2-data{
+    margin-left: 50px;
+    margin-right: 332px;
+    text-align: left;
+}
+
+.banner2-list{
+    list-style: none;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* margin-top: 24px; */
+    color: #444343;
+    padding: 0;
+    align-items: left;
+    margin-left: 75px;
+}
+
+.banner2-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* margin-right: 300; */
+    /* padding-left: 0; */
+    /* position: absolute; */
+}
+
+.banner2-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 75px;
+    color: #444343;
+}
+
+main h1{
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 700;
+font-size: 40px;
+margin-bottom: 50px;
+}
+
+.plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 175px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 130px;
+}
+
+.plan{
+    text-align: center;
+    /* margin: ; */
+}
+
+.plan-title{
+    font-weight: 700;
+font-size: 30px;
+
+color: #151414;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+
+.plan-description{
+    font-weight: 500;
+font-size: 25px;
+
+
+color: #737272;
+}
+
+.pcb{
+    background-image: url("../images/gradient1.png"), url('../images/watch.png');
+    margin-left: 230px;
+    margin-right: 230px;
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 130px;
+}
+
+.banner3{
+    padding-top: 50px;
+    margin-left: 64px;
+    text-align: left;
+    padding-right: 905px;
+    
+}
+
+.banner3 h2{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 700;
+font-size: 40px;
+padding-top: 80px;
+
+
+}
+
+/* contact */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #151414;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+    color: white;
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 16px;
+}
+
+.contact .section-description{
+    text-align: left;
+    color: white;
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 15px;
+}
+
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+
+.contact a{
+    text-decoration: none;
+    /* display: flex; */
+    /* gap: 20px; */
+    margin-right: 15px;
+
+}
+
+.contact-l{
+    margin-left: 30px;
+    margin-right: 470px;
+}
+
+.contact-r{
+    padding-right: 50px;
+}
+
+.contact .section-title2{
+    text-align: left;
+    color: white;
+    font-weight: 600;
+font-size: 25px;
+margin-bottom: 16px;
+}
+
+.einput{
+    margin-top: 12px;
+    border:2px solid red;
+    border-radius: 8px;
+    /* background-color: #151414; */
+    outline: none;
+    /* border-color: white; */
+    
+}
+
+.btn-primary2{
+    /* position: absolute; */
+    width: 170.11px;
+height: 64px;
+    left: 1210px;
+    top: 578px;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005FAC;
+    color: white;
+    border: none;
+    
+}
+
+input[type="email"]{
+    background-color: #151414;
+    border: 1px solid white;
+    font-weight: 400;
+font-size: 18px;
+width: 325px;
+}
