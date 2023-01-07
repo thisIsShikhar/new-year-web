@@ -73,7 +73,7 @@ header{
     margin-left: 0;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 35px;
     /* margin-top: 24px; */
     color: #444343;
     padding: 0;
@@ -124,7 +124,7 @@ margin-bottom: 50px;
 }
 
 .plan-title{
-    font-weight: 700;
+    font-weight: bolder;
 font-size: 30px;
 
 color: #151414;
@@ -193,6 +193,7 @@ margin-bottom: 16px;
     font-weight: 400;
 font-size: 16px;
 margin-bottom: 15px;
+line-height: 28px;
 }
 
 
